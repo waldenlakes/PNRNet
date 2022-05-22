@@ -1,0 +1,35 @@
+{
+    "config":
+    {
+      "display_folder": "./display/cttnet",
+      "display_val": "./validation_display/cttnet",
+      "epoch_folder": "./epoch/cttnet",
+      "summary": "./summary/cttnet",
+      "gpus": "0",
+      "train_data_path": "./Datasets/NTIRE2021_Challenge/track2_train",
+      "test_data_path": "./Datasets/NTIRE2021_Challenge/track2_train",
+      "data_workers": 16,
+      "val_workers": 4,
+      "train_shuffle": true,
+      "val_shuffle": false,
+      "train_batch": 40,
+      "val_batch": 40,
+      "resize": 512,
+      "train_list": "./Datasets/NTIRE2021_Challenge/train_cttnet_list.npy",
+      "val_list": "./Datasets/NTIRE2021_Challenge/val_cttnet_list.npy",
+      "training":
+      {
+        "lr": 0.0001,
+        "mm": 0.9,
+        "epochs": 1000,
+        "display": 20,
+        "display_batchsize": 8,
+        "record_iter": 50,
+        "continue": false,
+        "epoch": 0,
+        "count_train_iter_loss": 1,
+        "record_train_iter_loss": 200,
+        "mode":"train"
+      }
+    }
+  }

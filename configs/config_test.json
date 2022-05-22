@@ -1,0 +1,10 @@
+{
+    "config":
+    {
+      "test_dir": "./Datasets/NTIRE2021_Challenge/track2_validation/",
+      "gt_dir": "./Datasets/NTIRE2021_Challenge/track2_validation_gt",
+      "save_dir": "./test_results",
+      "pretrained_model_path": "./pretrained_models/PNRNet.pth",
+      "gpus": "0"
+    }
+  }

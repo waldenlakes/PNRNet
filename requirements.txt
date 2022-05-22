@@ -1,1 +1,3 @@
 pillow
+pytorch-ignite
+lpips

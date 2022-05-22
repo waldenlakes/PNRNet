@@ -3,6 +3,7 @@
 Code for PNRNet: Physically-inspired Neural Rendering for Any-to-Any Relighting.
 
 ## Method Overview
+We present a deep learning-based method that incorporates the physical principles of image formation into our neural rendering design, with the aim of eliminating the task-aliasing effects and maintaining the attached-shadow details.
 
 ![pipeline](assets/pipeline.png)
 
@@ -10,7 +11,7 @@ Examples results:
 ![results](assets/examples_results.jpg)
 
 ## Dependencies and Installation
-This code requires [PyTorch 1.6+](https://pytorch.org/) and [python 3+](https://www.python.org/downloads/). Also, please install other dependencies by
+This code requires [PyTorch 1.7+](https://pytorch.org/) and [python 3+](https://www.python.org/downloads/). Also, please install other dependencies by
 
     pip install -r requirements.txt
 
@@ -22,7 +23,7 @@ You should set a config file in configs/config_test.json, and run as following:
 
     python test.py
 
-Before running the above script, you need to download the [[pretrained model](https://pan.baidu.com/s/1XroFj5cvXRP9ZyuyotqqUg)]  (code: tfl4) and put it in the folder pretrained_models. 
+Before running the above script, you need to download the [[pretrained model](https://pan.baidu.com/s/1GGmy7fMQF9zoF4aFMVU5jQ)]  (code: n3ne) and put it in the folder pretrained_models. 
 
 You also need to download the NTRIE 2021 Track2 [[validation set](https://pan.baidu.com/s/1NpwTJ2kvZJp3_V2G7L40PA)]  (code: 0td8) and unzip it to the folder Datasets/NTIRE2021_Challenge.
 
@@ -69,6 +70,7 @@ If you use this code or these models in your research, please cite:
 ```
 
 ## Acknowledgement
+Part of the codes benefit from [DPR](https://github.com/zhhoper/DPR) and [GridDehazeNet](https://github.com/proteus1991/GridDehazeNet).
 
 ## Contact
 If you have any questions, please contact <zy_h@mail.nwpu.edu.cn>.

@@ -1,0 +1,32 @@
+{
+    "config":
+    {
+      "display_folder": "./display/lenet",
+      "display_val": "./validation_display/lenet",
+      "epoch_folder": "./epoch/lenet",
+      "summary": "./summary/lenet",
+      "gpus": "0",
+      "train_data_path": "./Datasets/NTIRE2021_Challenge/track2_train",
+      "test_data_path": "./Datasets/NTIRE2021_Challenge/track2_train",
+      "data_workers": 4,
+      "val_workers": 1,
+      "train_shuffle": true,
+      "val_shuffle": false,
+      "train_batch": 4,
+      "val_batch": 1,
+      "train_list": "./Datasets/NTIRE2021_Challenge/train.txt",
+      "training":
+      {
+        "lr": 0.0001,
+        "epochs": 1000,
+        "display": 200,
+        "display_batchsize": 8,
+        "record_iter": 50,
+        "continue": false,
+        "epoch": 0,
+        "count_train_iter_loss": 1,
+        "record_train_iter_loss": 20,
+        "mode":"train"
+      }
+    }
+  }
