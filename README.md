@@ -65,7 +65,9 @@ If you use this code or these models in your research, please cite:
   title={{PNRNet}: Physically-inspired Neural Rendering for Any-to-Any Relighting},
   author={Hu, Zhongyun and Nsampi, Ntumba Elie and Wang, Xue and Wang, Qing},
   journal={IEEE Transactions on Image Processing},
-  year={2022}
+  year={2022},
+  volume={31},
+  pages={3935-3948}
 }
 ```
 
